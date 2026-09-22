@@ -1,0 +1,137 @@
+/* Boilerplate */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+/* Header */
+header{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px 60px;
+}
+header h2{
+    font-weight: 600;
+    color: blueviolet;
+    font-size: 1.2em;
+    opacity: 0.5;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+nav li{
+    list-style: none;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 450;
+    opacity: 0.8;
+    font-size: 0.9em;
+}
+
+.contact-btn{
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-size: 0.8em;
+}
+/* Header end */
+
+/* Main */
+main{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    margin: 45px 60px;
+}
+article{
+    width: 50%;
+    height: 100%;
+}
+.description h2{
+    font-size: 2.2em;
+    font-weight: 600;
+    word-spacing: 1;
+    margin-bottom: 25px;
+}
+.description p{
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.btn{
+    padding: 8px 14px;
+    border-radius: 18px;
+}
+.join-btn{
+    background-color: blueviolet;
+    border: none;
+    color: aliceblue;
+    opacity: 0.6;
+}
+.learn-btn{
+    background: transparent;
+    border: 1px solid black;
+    margin-left: 8px;
+}
+.stats{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 95px;
+    gap: 2.5em;
+}
+.stat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 0 20px; */
+}
+.stat h3{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.stat p{
+    opacity: 0.7;
+    font-size: 0.8em;
+}
+.stat1{
+    border-right: 1px solid black;
+    padding-right: 15px;
+}
+.stat{
+    padding-right: 35px;
+}
+.stat img{
+    width: 20%;
+    height: 10%;
+}
+
+section{
+    width: 50%;
+    height: 100%;
+}
+section img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
