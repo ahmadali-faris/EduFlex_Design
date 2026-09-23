@@ -56,7 +56,7 @@ main{
     width: 90%;
     height: 70%;
     display: flex;
-    margin: 45px 60px;
+    margin: 65px 60px;
 }
 article{
     width: 50%;
@@ -125,13 +125,13 @@ article{
     height: 10%;
 }
 
-section{
+/* section{
     width: 50%;
     height: 100%;
-}
-section img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+} */
+img {
+    max-width: 50%;
+    max-height: 100%;
+    object-fit: cover;
 }
 
